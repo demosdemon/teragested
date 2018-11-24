@@ -20,8 +20,8 @@
 # -- Project information -----------------------------------------------------
 
 project = "bashlex"
-copyright = "2018, Brandon LeBlanc <brandon@leblanc.codes>"
-author = "Brandon LeBlanc <brandon@leblanc.codes>"
+copyright = "2018, Brandon LeBlanc"
+author = "Brandon LeBlanc"
 
 # The short X.Y version
 version = "0.0.1"
@@ -131,13 +131,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (
-        master_doc,
-        "bashlex.tex",
-        "bashlex Documentation",
-        "Brandon LeBlanc \\textless{}brandon@leblanc.codes\\textgreater{}",
-        "manual",
-    )
+    (master_doc, "bashlex.tex", "bashlex Documentation", "Brandon LeBlanc", "manual")
 ]
 
 
