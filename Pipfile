@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+"click" = "*"
+"parsy" = "*"
+"pbr" = "*"
+
+[dev-packages]
+"black" = "*"
+"flake8" = "*"
+"ipdb" = "*"
+"ipython" = "*"
+"isort" = "*"
+"pytest-clarity" = "*"
+"pytest-cov" = "*"
+"pytest" = "*"
+
+[pipenv]
+allow_prereleases = true
