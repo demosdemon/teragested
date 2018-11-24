@@ -19,6 +19,7 @@ name = "pypi"
 "pytest-clarity" = "*"
 "pytest-cov" = "*"
 "pytest" = "*"
+"sphinx" = "*"
 
 [pipenv]
 allow_prereleases = true
