@@ -201,7 +201,7 @@ class SubshellFlags(IntFlag):
 
 
 class CommandFlags(IntFlag):
-    #: user wants a subshell: ( command )
+    #: user wants a subshell; ( command )
     WANT_SUBSHELL = 0x01
     #: shell needs to force a subshell
     FORCE_SUBSHELL = 0x02
