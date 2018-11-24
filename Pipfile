@@ -4,11 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+"attrs" = "*"
 "click" = "*"
 "parsy" = "*"
 "pbr" = "*"
 
 [dev-packages]
+"bashlex" = { editable = true, path = "." }
 "black" = "*"
 "flake8" = "*"
 "ipdb" = "*"

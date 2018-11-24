@@ -12,7 +12,7 @@ else
 PYTHON ?= $(shell command -v python)
 endif
 
-python_code := bashlex tests setup.py
+python_code := bashlex tests
 
 help:
 	@echo 'Usage: make <target>'
