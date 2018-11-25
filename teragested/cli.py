@@ -1,4 +1,8 @@
 # -*- coding: utf-8 -*-
+""".. module:: teragested.cli
+
+The teragested command line interface.
+"""
 
 import click
 
