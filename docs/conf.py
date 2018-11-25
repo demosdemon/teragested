@@ -23,11 +23,6 @@ project = "teragested"
 copyright = "2018, Brandon LeBlanc"
 author = "Brandon LeBlanc"
 
-# The short X.Y version
-version = "0.0.1"
-# The full version, including alpha/beta/rc tags
-release = "0.0.1-dev"
-
 
 # -- General configuration ---------------------------------------------------
 
@@ -39,12 +34,23 @@ release = "0.0.1-dev"
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    "pbr.sphinxext",
     "sphinx.ext.autodoc",
+    "sphinx.ext.autosummary",
+    "sphinx.ext.coverage",
     "sphinx.ext.doctest",
+    "sphinx.ext.extlinks",
+    "sphinx.ext.ifconfig",
     "sphinx.ext.intersphinx",
+    "sphinx.ext.napoleon",
     "sphinx.ext.todo",
     "sphinx.ext.viewcode",
 ]
+
+extlinks = {
+    "issue": ("https://github.com/demosdemon/teragested/issues/%s", "#"),
+    "pr": ("https://github.com/demosdemon/teragested/pull/%s", "#"),
+}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
@@ -85,7 +91,7 @@ html_theme = "alabaster"
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-# html_theme_options = {}
+html_theme_options = {"githuburl": "https://github.com/demosdemon/teragested/"}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -130,7 +136,13 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, "teragested.tex", "teragested Documentation", "Brandon LeBlanc", "manual")
+    (
+        master_doc,
+        "teragested.tex",
+        "teragested Documentation",
+        "Brandon LeBlanc",
+        "manual",
+    )
 ]
 
 

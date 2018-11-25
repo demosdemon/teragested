@@ -45,7 +45,6 @@ clean:
 	git clean -xdf -e .env -e .venv
 
 docs: $(PYTHON)
-	$(VIRTUAL_ENV)/bin/sphinx-apidoc -f -o docs -P -M teragested
 	$(MAKE) -C docs html
 
 format: $(PYTHON)

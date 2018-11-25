@@ -1,3 +1,4 @@
+======================================
 Welcome to teragested's documentation!
 ======================================
 
@@ -6,7 +7,11 @@ Welcome to teragested's documentation!
   :caption: Contents:
 
   readme
-  modules
+  installation
+  usage
+  reference/index
+  authors
+  changelog
 
 Indices and tables
 ==================
