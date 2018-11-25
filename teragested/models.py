@@ -64,7 +64,7 @@ class Command(ABC):
 
 @attr.s
 class Connection(Command):
-    type = CommandType.CONNECTION
+    type = CommandType.Connection
     first: Command = attr.ib(default=None)
     second: Command = attr.ib(default=None)
     connector: Token = attr.ib(default=None)
@@ -79,6 +79,6 @@ class Pattern:
 
 @attr.s
 class Case(Command):
-    type = CommandType.CASE
+    type = CommandType.Case
     word: Word = attr.ib(default=None)
     clauses: List[Pattern] = attr.ib(factory=list)
