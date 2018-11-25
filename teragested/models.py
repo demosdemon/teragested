@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
-""".. module:: teragested.models
-
-Various data models used within teragested.
-"""
+"""Various data models used within teragested."""
 from abc import ABC, abstractmethod
 from typing import List, Optional, Union
 
