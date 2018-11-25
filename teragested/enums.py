@@ -85,6 +85,11 @@ class RedirectionInstruction(IntEnum):
 
     @property
     def clobering(self):
+        """Determines if this instruction should check for an existing file before writing.
+
+        :type: bool
+        """
+
         return self in (
             RedirectionInstruction.OutputDirection,
             RedirectionInstruction.ErrAndOut,
@@ -92,6 +97,11 @@ class RedirectionInstruction(IntEnum):
 
     @property
     def output_redirect(self):
+        """Determines if this instruction redirects the stdout.
+
+        :type: bool
+        """
+
         return self in (
             RedirectionInstruction.OutputDirection,
             RedirectionInstruction.InputOutput,
@@ -101,6 +111,11 @@ class RedirectionInstruction(IntEnum):
 
     @property
     def input_redirect(self):
+        """Determines if this instruction redirects the stdin.
+
+        :type: bool
+        """
+
         return self in (
             RedirectionInstruction.InputDirection,
             RedirectionInstruction.InputADirection,
@@ -109,6 +124,11 @@ class RedirectionInstruction(IntEnum):
 
     @property
     def write_redirect(self):
+        """Determines if this instruction redirects an output descriptor.
+
+        :type: bool
+        """
+
         return self in (
             RedirectionInstruction.OutputDirection,
             RedirectionInstruction.InputOutput,
@@ -120,6 +140,11 @@ class RedirectionInstruction(IntEnum):
 
     @property
     def translate_redirect(self):
+        """Determines if the source of this redirection is variadic.
+
+        :type: bool
+        """
+
         return self in (
             RedirectionInstruction.DuplicatingInputWord,
             RedirectionInstruction.DuplicatingOutputWord,
@@ -172,7 +197,7 @@ class WordFlags(IntFlag):
     Quoted = 0x000002
     #: this word is a variable assignment
     Assignment = 0x000004
-    #: split this word on " " regardless of ``$IFS```
+    #: split this word on " " regardless of ``$IFS``
     SplitSpace = 0x000008
     #: do not perform word splitting because ``$IFS`` is empty
     NoSplit = 0x000010
