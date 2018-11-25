@@ -5,5 +5,5 @@ import click
 
 @click.command()
 def main():
-    """Interact with the bashlex parser and a shell script."""
+    """Interact with the teragested parser and a shell script."""
     pass

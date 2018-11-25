@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "7b9f9912f135dd4cc5e08aed74d735c03549e8cf8373b2c077b3893d9c7cb1a1"
+            "sha256": "743bfc6c91864d7326da5400ddd72624cbfa8069a801de77dc75acc9f0a79b2e"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -105,10 +105,6 @@
                 "sha256:bbbf4b1e5cd2bdb08f915895b51081c041bac22394fdfcfdfbe9f14b77c08bf2"
             ],
             "version": "==0.1.0"
-        },
-        "bashlex": {
-            "editable": true,
-            "path": "."
         },
         "black": {
             "hashes": [
@@ -462,6 +458,10 @@
                 "sha256:9de47f375baf1ea07cdb3436ff39d7a9c76042c10a769c52353ec46e4e8fc3b9"
             ],
             "version": "==1.1.0"
+        },
+        "teragested": {
+            "editable": true,
+            "path": "."
         },
         "termcolor": {
             "hashes": [

@@ -10,7 +10,6 @@ name = "pypi"
 "pbr" = "*"
 
 [dev-packages]
-"bashlex" = { editable = true, path = "." }
 "black" = "*"
 "flake8" = "*"
 "ipdb" = "*"
@@ -20,6 +19,7 @@ name = "pypi"
 "pytest-cov" = "*"
 "pytest" = "*"
 "sphinx" = "*"
+"teragested" = { editable = true, path = "." }
 
 [pipenv]
 allow_prereleases = true

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-""".. module:: bashlex.enums
+""".. module:: teragested.enums
 
-Contains various Enum constants used in bashlex.
+Contains various Enum constants used in teragested.
 """
 
 from enum import Enum, IntEnum, IntFlag, auto

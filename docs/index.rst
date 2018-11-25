@@ -1,5 +1,5 @@
-Welcome to bashlex's documentation!
-===================================
+Welcome to teragested's documentation!
+======================================
 
 .. toctree::
   :maxdepth: 2

@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "bashlex"
+project = "teragested"
 copyright = "2018, Brandon LeBlanc"
 author = "Brandon LeBlanc"
 
@@ -106,7 +106,7 @@ html_static_path = ["_static"]
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "bashlexdoc"
+htmlhelp_basename = "teragesteddoc"
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -130,7 +130,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, "bashlex.tex", "bashlex Documentation", "Brandon LeBlanc", "manual")
+    (master_doc, "teragested.tex", "teragested Documentation", "Brandon LeBlanc", "manual")
 ]
 
 
@@ -138,7 +138,7 @@ latex_documents = [
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [(master_doc, "bashlex", "bashlex Documentation", [author], 1)]
+man_pages = [(master_doc, "teragested", "teragested Documentation", [author], 1)]
 
 
 # -- Options for Texinfo output ----------------------------------------------
@@ -149,10 +149,10 @@ man_pages = [(master_doc, "bashlex", "bashlex Documentation", [author], 1)]
 texinfo_documents = [
     (
         master_doc,
-        "bashlex",
-        "bashlex Documentation",
+        "teragested",
+        "teragested Documentation",
         author,
-        "bashlex",
+        "teragested",
         "One line description of project.",
         "Miscellaneous",
     )

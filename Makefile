@@ -15,7 +15,7 @@ endif
 SPHINXBUILD ?= $(VIRTUAL_ENV)/bin/sphinx-build
 export SPHINXBUILD
 
-python_code := bashlex tests docs
+python_code := teragested tests docs
 
 help:
 	@echo 'Usage: make <target>'
@@ -45,7 +45,7 @@ clean:
 	git clean -xdf -e .env -e .venv
 
 docs: $(PYTHON)
-	$(VIRTUAL_ENV)/bin/sphinx-apidoc -f -o docs -P -M bashlex tests
+	$(VIRTUAL_ENV)/bin/sphinx-apidoc -f -o docs -P -M teragested
 	$(MAKE) -C docs html
 
 format: $(PYTHON)
