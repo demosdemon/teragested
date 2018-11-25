@@ -147,9 +147,9 @@ class WordFlags(IntFlag):
 class ParamFlags(IntFlag):
     NoComSub = 0x01  #: Do not perform command substitution
     IgnUnbound = 0x02  #: Ignore unbound vars even if ``-u`` is set
-    NoSplit2 = 0x04  #: same as :member:`WordFlags.NoSplit2`
-    AssignRhs = 0x08  #: same as :member:`WordFlags.AssignRhs`
-    Complete = 0x10  #: same as :member:`WordFlags.Complete`
+    NoSplit2 = 0x04  #: same as :attr:`WordFlags.NoSplit2`
+    AssignRhs = 0x08  #: same as :attr:`WordFlags.AssignRhs`
+    Complete = 0x10  #: same as :attr:`WordFlags.Complete`
 
 
 class SubshellFlags(IntFlag):

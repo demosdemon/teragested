@@ -18,6 +18,7 @@ name = "pypi"
 "pytest-clarity" = "*"
 "pytest-cov" = "*"
 "pytest" = "*"
+"sphinx-rtd-theme" = "*"
 "sphinx" = "*"
 "teragested" = { editable = true, path = "." }
 
